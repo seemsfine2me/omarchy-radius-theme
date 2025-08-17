@@ -4,12 +4,12 @@ This is the **Cobalt2** Theme for [Omarchy.org](https://omarchy.org), providing 
 
 <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/c8879cec-2e86-4259-b90e-5814be31ff07" />
 
-*Deep blue depths where code comes alive,*
-*Golden highlights make syntax thrive.*
-*In shadows of cobalt, thoughts take flight—*
-*Where darkness meets brilliance, day turns to night.*
-*The coder's canvas, both bold and true,*
-*Where yellow sparks dance in oceans of blue.*
+> Deep blue depths where code comes alive,  
+> Golden highlights make syntax thrive.  
+> In shadows of cobalt, thoughts take flight—  
+> Where darkness meets brilliance, day turns to night.  
+> The coder's canvas, both bold and true,  
+> Where yellow sparks dance in oceans of blue.
 
 ## Installation
 
