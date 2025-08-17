@@ -38,6 +38,7 @@ This theme provides cohesive styling for all Omarchy components:
 - **Waybar** (`waybar.css`) - Status bar theming
 - **Walker** (`walker.css`) - Application launcher styling
 - **SwayOSD** (`swayosd.css`) - On-screen display overlays
+- **Chromium** (`chromium.theme`) - Browser theming with deep blue frame (requires Omarchy dev branch)
 - **Icon Theme** (`icons.theme`) - Yaru-yellow icon set for file manager
 - **Backgrounds** - Curated wallpapers that complement the Cobalt2 aesthetic
 
