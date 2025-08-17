@@ -53,7 +53,7 @@ The Cobalt2 theme is built around these signature colors:
 
 ## Credits
 
-This theme is inspired by the iconic [Cobalt2 theme](https://github.com/wesbos/cobalt2-vscode) originally created by Wes Bos for VSCode. The Neovim integration uses the [cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) plugin.
+This theme is inspired by the iconic [Cobalt2 theme](https://github.com/wesbos/cobalt2-vscode) originally created by Wes Bos for VSCode. The Neovim integration uses the [cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) plugin. Background wallpapers are sourced from the curated collection at [dharmx/walls](https://github.com/dharmx/walls).
 
 Created with ❤️ by hoblin for the Omarchy community.
 
