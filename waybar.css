@@ -1,4 +1,9 @@
-@define-color foreground #ffffff;
-@define-color background rgba(255, 255, 255, 0.33);
-@define-color backdrop-filter: blur(4.6px);
-@define-color webkit-backdrop-filter: blur(4.6px);
+window#waybar {
+    background-color: rgba(30, 30, 30, 0.3); /* transparent black */
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+#clock, #cpu, #memory {
+    padding: 0 10px;
+}
