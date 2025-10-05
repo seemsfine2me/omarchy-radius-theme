@@ -1,10 +1,5 @@
 window#waybar {
     background-color: rgba(30, 30, 30, 0.3); /* transparent black */
-    border-radius: 10px;
-    margin-top: 3px;
     color: #ffffff;
 }
 
-#clock, #cpu, #memory {
-    padding: 0 10px;
-}
