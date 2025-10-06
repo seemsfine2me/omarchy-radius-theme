@@ -5,19 +5,20 @@ window#waybar {
     border-radius: 0px;
 }
 
-/* General module style */
+/* General module style 
 #bluetooth
 #workspaces button,
 #pulseaudio,
 #battery,
 #cpu,
-#memory,
+#memory,  */
 #clock,
+/*
 #temperature,
 #network,
 #tray,
-#custom-power,
-#custom-launcher {
+#custom-power, 
+#custom-launcher */ {
     padding: 5px 10px;
     margin: 4px 2px;
     border-radius: 8px;
