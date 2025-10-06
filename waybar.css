@@ -6,6 +6,7 @@ window#waybar {
 }
 
 /* General module style */
+#bluetooth
 #workspaces button,
 #pulseaudio,
 #battery,
