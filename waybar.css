@@ -32,15 +32,13 @@ window#waybar {
     background: #f7cc38;
     color: #000000;
     font-weight: bold;
-}
 
-/* Hover effect (optional) */
 #workspaces button:hover,
 #pulseaudio:hover,
 #battery:hover,
 #clock:hover {
-    background: #f39c12;
-    color: black;
+    background: #6cffd1;
+    color: white;
 }
 
 
