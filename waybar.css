@@ -2,3 +2,12 @@ window#waybar {
     background-color: rgba(30, 30, 30, 0.25);
     color: #ffffff;
     }
+
+#workspaces button:hover,
+#pulseaudio:hover,
+#battery:hover,
+#clock:hover {
+    background-color: rgba(30, 30, 30, 0.1);
+    color: white;
+    box-shadow: 2px 2px #000000;
+}
