@@ -41,9 +41,3 @@ window#waybar {
     background-color: #e74c3c;
 }
 
-/* Add custom spacing/padding for clarity */
-.modules-left,
-.modules-center,
-.modules-right {
-    padding: 0 4px;
-}
