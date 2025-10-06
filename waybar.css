@@ -1,5 +1,62 @@
+/* Base Waybar Window */
 window#waybar {
-    background-color: rgba(30, 30, 30, 0.25); /* transparent black */
-    color: #ffffff;
+    background-color: rgba(30, 30, 30, 0.25);
+    color: white;
+    font-family: "JetBrains Mono", "Font Awesome 6 Free", sans-serif;
+    font-size: 13px;
+    border: none;
+    border-radius: 0px;
 }
 
+/* General module style */
+#workspaces button,
+#pulseaudio,
+#battery,
+#cpu,
+#memory,
+#clock,
+#temperature,
+#network,
+#tray,
+#custom-power,
+#custom-launcher {
+    padding: 5px 10px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #202020, #303030);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+}
+
+/* Active workspace */
+#workspaces button.focused {
+    background: #f7cc38;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Hover effect (optional) */
+#workspaces button:hover,
+#pulseaudio:hover,
+#battery:hover,
+#clock:hover {
+    background: #f39c12;
+    color: black;
+}
+
+/* Battery colors */
+#battery.charging {
+    background-color: #27ae60;
+}
+#battery.critical {
+    background-color: #e74c3c;
+}
+
+/* Add custom spacing/padding for clarity */
+.modules-left,
+.modules-center,
+.modules-right {
+    padding: 0 8px;
+}
