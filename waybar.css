@@ -12,8 +12,6 @@ window#waybar {
 }
 
 #workspaces button:hover,
-#pulseaudio:hover,
-#battery:hover,
 #clock:hover {
     background-color: rgba(30, 30, 30, 0.1);
     color: white;
