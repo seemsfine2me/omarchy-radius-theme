@@ -3,3 +3,21 @@ window#waybar {
     color: #ffffff;
     }
 
+#clock {
+    padding: 5px 10px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #202020, #303030);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+}
+
+#workspaces button:hover,
+#pulseaudio:hover,
+#battery:hover,
+#clock:hover {
+    background: #f39c12;
+    color: black;
+}
