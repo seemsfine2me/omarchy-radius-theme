@@ -1,12 +1,21 @@
-
 window#waybar {
     background-color: rgba(30, 30, 30, 0.25);
-    color: white;
-    font-size: 13px;
+    color: white;    font-size: 13px;
     border: none;
     border-radius: 0px;
 }
 
+/* General module style */
+#workspaces button,
+#pulseaudio,
+#battery,
+#cpu,
+#memory,
+#clock,
+#temperature,
+#network,
+#tray,
+#custom-power,
 #custom-launcher {
     padding: 5px 10px;
     margin: 4px 2px;
@@ -18,6 +27,7 @@ window#waybar {
     transition: all 0.2s ease;
 }
 
+/* Active workspace */
 #workspaces button.focused {
     background: #f7cc38;
     color: #000000;
@@ -33,11 +43,10 @@ window#waybar {
     color: black;
 }
 
-/* Battery colors */
-#battery.charging {
-    background-color: #27ae60;
-}
-#battery.critical {
-    background-color: #e74c3c;
-}
 
+/* Add custom spacing/padding for clarity */
+.modules-left,
+.modules-center,
+.modules-right {
+    padding: 0 8px;
+}
