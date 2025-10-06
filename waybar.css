@@ -1,24 +1,12 @@
-/* Base Waybar Window */
+
 window#waybar {
     background-color: rgba(30, 30, 30, 0.25);
     color: white;
-    font-family: "JetBrains Mono", "Font Awesome 6 Free", sans-serif;
     font-size: 13px;
     border: none;
     border-radius: 0px;
 }
 
-/* General module style */
-#workspaces button,
-#pulseaudio,
-#battery,
-#cpu,
-#memory,
-#clock,
-#temperature,
-#network,
-#tray,
-#custom-power,
 #custom-launcher {
     padding: 5px 10px;
     margin: 4px 2px;
@@ -30,7 +18,6 @@ window#waybar {
     transition: all 0.2s ease;
 }
 
-/* Active workspace */
 #workspaces button.focused {
     background: #f7cc38;
     color: #000000;
@@ -58,5 +45,5 @@ window#waybar {
 .modules-left,
 .modules-center,
 .modules-right {
-    padding: 0 8px;
+    padding: 0 4px;
 }
